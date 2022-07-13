@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="e9e9cffe-7fd8-4e5e-bdde-4e623b4e5827" name="heite@DESKTOP-R06DB73 2022-07-13 07:15:11" runUser="DESKTOP-R06DB73\heite" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2022-07-13T07:15:11.0245773-03:00" queuing="2022-07-13T07:15:11.0245777-03:00" start="2022-07-13T07:14:55.2697866-03:00" finish="2022-07-13T07:15:11.0777480-03:00" />
+  <TestSettings name="default" id="e7ab5228-54fd-4d82-b2a6-3e617aaef50c">
+    <Deployment runDeploymentRoot="heite_DESKTOP-R06DB73_2022-07-13_07_15_11" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="9d8fe16c-7290-4fe5-a9e8-e3d153c9cc71" testId="09bffba3-3935-daa5-e3a3-16094dab8bf5" testName="ShouldSeeMainArea" computerName="DESKTOP-R06DB73" duration="00:00:04.9914550" startTime="2022-07-13T07:15:05.8442069-03:00" endTime="2022-07-13T07:15:10.8355211-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9d8fe16c-7290-4fe5-a9e8-e3d153c9cc71">
+      <Output>
+        <StdErr>Falha ao anexar arquivos de: Attachments&#xD;
+Detalhes do erro: System.IO.IOException:System.IO.IOException: Falha na solicitação devido a um erro fatal de hardware de dispositivo. : 'D:\dev\SwagLabs\reports\heite_DESKTOP-R06DB73_2022-07-13_07_15_11\In\9d8fe16c-7290-4fe5-a9e8-e3d153c9cc71\DESKTOP-R06DB73'&#xD;
+   at System.IO.FileSystem.CreateDirectory(String fullPath, Byte[] securityDescriptor)&#xD;
+   at System.IO.Directory.CreateDirectory(String path)&#xD;
+   at Microsoft.TestPlatform.Extensions.TrxLogger.Utility.Converter.ToResultFiles(AttachmentSet attachmentSet, Guid testResultExecutionId, TestRun testRun, String trxFileDirectory)&#xD;
+   at Microsoft.TestPlatform.Extensions.TrxLogger.Utility.Converter.UpdateTestResultAttachments(TestResult rockSteadyTestResult, TestResult testResult, TestRun testRun, String trxFileDirectory, Boolean addAttachments)</StdErr>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="ShouldSeeMainArea" storage="d:\dev\swaglabs\bin\debug\net6.0\swaglabs.dll" id="09bffba3-3935-daa5-e3a3-16094dab8bf5">
+      <Execution id="9d8fe16c-7290-4fe5-a9e8-e3d153c9cc71" />
+      <TestMethod codeBase="D:\dev\SwagLabs\bin\Debug\net6.0\SwagLabs.dll" adapterTypeName="executor://nunit3testexecutor/" className="SwagLabs.Tests.TestesLogin" name="ShouldSeeMainArea" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="09bffba3-3935-daa5-e3a3-16094dab8bf5" executionId="9d8fe16c-7290-4fe5-a9e8-e3d153c9cc71" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Resultados que não estão em uma lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos os resultados carregados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="0" passed="0" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 4.2.0.0: Test execution started&#xD;
+Running selected tests in D:\dev\SwagLabs\bin\Debug\net6.0\SwagLabs.dll&#xD;
+   NUnit3TestExecutor discovered 1 of 1 NUnit test cases using Current Discovery mode, Non-Explicit run&#xD;
+NUnit Adapter 4.2.0.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
